@@ -3,7 +3,7 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family:  'Roboto', sans-serif;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
@@ -37,6 +37,11 @@ p {
 #header {
     background-image: url("mahdi.jpg");
     background-size: cover;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 10px solid black;
+   	border-image: 100%;
 }
 #header img {
     display:inline-block;
